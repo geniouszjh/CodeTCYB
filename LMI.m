@@ -1,5 +1,5 @@
 %Distributed interval estimation for continuous-time linear systems based
-%on robust observer and interval analysis 
+%on robust observer and interval
 clc
 clear all
 close all
@@ -194,4 +194,5 @@ L6 = T6*[pinv(P6o)*W6o;zeros(nx-v6,1)];
 M1=value(M1);M2=value(M2);M3=value(M3);
 
 M4=value(M4);M5=value(M5);M6=value(M6);
+
 
